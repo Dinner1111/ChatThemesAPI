@@ -21,7 +21,7 @@ public class ChatThemes {
 		JUNGLE_JAM,
 		GRAY_GLOOM
 	}
-	public void addThemes() {
+	protected void addThemes() {
 		themes.put(ThemeType.COOL_BLUE, new ThemeColors(ChatColor.AQUA, ChatColor.BLUE, ChatColor.GRAY, ChatColor.DARK_GRAY));
 		themes.put(ThemeType.DEVILS_DEN, new ThemeColors(ChatColor.RED, ChatColor.DARK_RED, ChatColor.YELLOW, ChatColor.DARK_GRAY));
 		themes.put(ThemeType.JUNGLE_JAM, new ThemeColors(ChatColor.GREEN, ChatColor.DARK_PURPLE, ChatColor.LIGHT_PURPLE, ChatColor.DARK_GREEN));
